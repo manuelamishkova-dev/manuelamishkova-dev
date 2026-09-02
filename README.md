@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hi, I'm Manuela 👋
 
-<!--
-**manuelamishkova-dev/manuelamishkova-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm transitioning into cloud engineering and building practical skills through structured study and hands-on projects.
 
-Here are some ideas to get you started:
+## Currently learning
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Networking fundamentals
+- Microsoft Azure
+- Network troubleshooting and security fundamentals
+
+## Next steps
+
+- Cisco Packet Tracer labs
+- Linux administration
+- Git and GitHub
+- PowerShell and Bash
+- Infrastructure as Code
+
+## Career direction
+
+My primary goal is to become a Cloud Engineer, with long-term interests in DevOps and Cloud Security.
+
+This profile will document my technical labs, configurations, troubleshooting exercises and cloud projects.
