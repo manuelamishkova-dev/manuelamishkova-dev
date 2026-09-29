@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Packet Tracer screenshot placeholder</title>
+  <desc id="desc">A clearly labeled placeholder reminding the project owner to add a real Packet Tracer topology screenshot after validation.</desc>
+  <rect width="1200" height="420" rx="22" fill="#f3f6fb"/>
+  <rect x="28" y="28" width="1144" height="364" rx="16" fill="#ffffff" stroke="#b8c5d8" stroke-width="3" stroke-dasharray="12 9"/>
+  <text x="600" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#1f3555">SCREENSHOT PLACEHOLDER</text>
+  <text x="600" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#42556f">Replace with a real Packet Tracer topology capture</text>
+  <text x="600" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#66788f">Capture only after the lab is built and verified</text>
+</svg>
