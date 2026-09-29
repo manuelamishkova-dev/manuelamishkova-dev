@@ -1,0 +1,36 @@
+! R1 — router interfaces and local DHCP server
+! Model target: Cisco 1941 in Packet Tracer
+! Run from privileged EXEC mode.
+
+configure terminal
+hostname R1
+no ip domain-lookup
+
+! Keep gateway and infrastructure addresses out of the DHCP ranges.
+ip dhcp excluded-address 192.168.10.1 192.168.10.20
+ip dhcp excluded-address 192.168.20.1 192.168.20.20
+
+ip dhcp pool LAN-A
+ network 192.168.10.0 255.255.255.0
+ default-router 192.168.10.1
+exit
+
+ip dhcp pool LAN-B
+ network 192.168.20.0 255.255.255.0
+ default-router 192.168.20.1
+exit
+
+interface GigabitEthernet0/0
+ description LAN-A-to-SW1
+ ip address 192.168.10.1 255.255.255.0
+ no shutdown
+exit
+
+interface GigabitEthernet0/1
+ description LAN-B-to-SW2
+ ip address 192.168.20.1 255.255.255.0
+ no shutdown
+exit
+
+end
+copy running-config startup-config

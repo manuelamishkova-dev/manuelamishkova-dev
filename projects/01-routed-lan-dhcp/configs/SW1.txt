@@ -1,0 +1,30 @@
+! SW1 — access switch for LAN A
+! Model target: Catalyst 2960-24TT in Packet Tracer
+! Run from privileged EXEC mode.
+
+configure terminal
+hostname SW1
+no ip domain-lookup
+
+interface GigabitEthernet0/1
+ description Uplink-to-R1-G0/0
+ switchport mode access
+ no shutdown
+exit
+
+interface FastEthernet0/2
+ description PC-A
+ switchport mode access
+ spanning-tree portfast
+ no shutdown
+exit
+
+interface FastEthernet0/3
+ description PC-B
+ switchport mode access
+ spanning-tree portfast
+ no shutdown
+exit
+
+end
+copy running-config startup-config
